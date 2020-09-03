@@ -1,0 +1,36 @@
+.card{
+    width: 75%; 
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: none !important; 
+}
+.card-header{
+    background-color: #6943a1 !important;
+    color: white;
+    line-height: 20px;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+li:last-child{
+    border-radius: 0px 0px 20px 20px !important;
+}
+
+.list-group-item {
+    line-height: 30px;
+}
+
+li:nth-child(2n+1){
+    background-color: #E8E8E8 !important;
+}
+
+li:nth-child(2n+0){
+    background-color: #F5F5F5 !important;
+}
+
+a{
+    color: black !important;
+}
+a:link{
+    text-decoration: none !important;
+}
